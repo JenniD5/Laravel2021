@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Notas</title>
     <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css')}}">
-    <script type="text/javascript" src="{{asset('js/script.js')}}"></script>
+    
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -29,7 +29,7 @@
                 </ul>
             </nav>
         </header>
-        
+
         @yield('content')
 
 
