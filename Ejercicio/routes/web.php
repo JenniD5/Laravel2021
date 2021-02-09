@@ -41,4 +41,4 @@ Route :: get ('nota/editar', function(){
 });
 Route:: get('nota/{id}', function($id){
     return 'detalles de la nota con id:' .$id;
-});
+})->name('notas.edit');
