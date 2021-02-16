@@ -17,7 +17,7 @@ class NotasSeeder extends Seeder
     {
         DB::table('notas')->insert([
             'titulo' => '¿Para qué sirve Composer?',
-            'contenido'=> 'Con Composer podemos instalar y actualizar frameworks como Laravel o Symfony, así como componentes para generar PDF, procesar pagos con tarjetas, manipular imágenes y mucho más.',
+            'contenido'=> '<p>Con Composer podemos instalar y actualizar frameworks como Laravel o Symfony, así como componentes para generar PDF, procesar pagos con tarjetas, manipular imágenes y mucho más.</p>',
         ]);
 
         DB::table('notas')->insert([
@@ -31,8 +31,8 @@ class NotasSeeder extends Seeder
         ]);
         DB::table('notas')->insert([
             'titulo'=> 'Front Controller',
-            'contenido'=> 'Front Controller es un patrón de arquitectura donde un controlador
-            maneja todas las solicitudes o peticiones a un sitio web.',
+            'contenido'=> '<p>Front Controller es un patrón de arquitectura donde un controlador
+            maneja todas las solicitudes o peticiones a un sitio web.</p>',
         ]);
         DB::table('notas')->insert([
             'titulo'=> 'Cambia el formato de parámetros dinámicos',
