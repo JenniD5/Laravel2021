@@ -39,4 +39,7 @@ class NotasSeeder extends Seeder
             'contenido'=> File::get(__DIR__.'/notas/cambiarformato.html'),
         ]);
     }
+
+
+    
 }
